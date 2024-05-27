@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+
+html {
+    font-family: "Poetsen One", sans-serif;
+}
+
+
+
+body {
+    background-color: gainsboro;
+}
+
+.main {
+    min-height: 100vh;
+    display: flex;
+    background-size: auto;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+.main-div {}
+
+.header {
+    color: white;
+    font-size: 50px;
+    margin: auto;
+    text-align: center;
+    border: 3px solid black;
+    padding: 3px;
+    background-color: grey;
+
+}
+
+.game {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 5px;
+    border: 1px solid black;
+    padding: 5px;
+
+
+
+}
+
+.fieldxo {
+    border: 1px outset black;
+    background-color: gray;
+    height: 70px;
+    width: 70px;
+    cursor: pointer;
+    font-size: 40px;
+
+}
+
+.fieldxo:hover {
+    background-color: whitesmoke;
+}
+
+
+.menu {
+    border: 1px solid black;
+    margin: 20px;
+    padding: 5px;
+    height: 100px;
+
+}
+
+.footer {
+    text-align: center;
+    padding: 3px;
+    background-color: black;
+    color: rgb(172, 166, 166);
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+
+}

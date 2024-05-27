@@ -1,0 +1,21 @@
+Klasyczna gra kółka i Krzyżyk dla 2 osób
+
+
+Etap 1
+
+Użytkownicy na zmianę dają kólko lub krzyżyk na planszy 3 x 3 
+Wygrywa ten który ułoży w lini pionowej, poziomej lub po skosie swój znak
+
+Etap 2
+
+gra się do 3 punktów, kto poierwszy zdobędzie 3 pkt wygrywa | 1 wygrana = 1 pkt |
+Numer rundy nad polem gry
+Historia wyników po prawej
+
+Etap 3
+
+Możliwość wyboru koloru znaku 
+
+
+
+
