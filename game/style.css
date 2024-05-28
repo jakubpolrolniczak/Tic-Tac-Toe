@@ -11,17 +11,12 @@ body {
 }
 
 .main {
-    min-height: 100vh;
     display: flex;
     background-size: auto;
     justify-content: center;
     align-items: center;
 
 }
-
-
-
-.main-div {}
 
 .header {
     color: white;
@@ -42,8 +37,6 @@ body {
     border: 1px solid black;
     padding: 5px;
 
-
-
 }
 
 .fieldxo {
@@ -60,13 +53,28 @@ body {
     background-color: whitesmoke;
 }
 
+.option-btn {
+    border: 1px outset black;
+    background-color: gray;
+    height: 40px;
+    width: 70px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.option-btn:hover {
+    background-color: whitesmoke;
+}
 
 .menu {
     border: 1px solid black;
-    margin: 20px;
-    padding: 5px;
-    height: 100px;
-
+    margin: 5px;
+    padding: 2px;
+    height: 225px;
+    width: 100px;
+    text-align: center;
+    font-size: 25px;
+    
 }
 
 .footer {
