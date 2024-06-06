@@ -1,33 +1,21 @@
 console.log('Test JS')
 
-//buttons
+//button reset
+const btnOption = document.querySelector('.resetBtn');
+btnOption.addEventListener('click', () => {
+    console.log('reset Button click!');
+});
+
+//buttons xo
 const btnxo = document.querySelectorAll('.fieldxo');
-console.log(btnxo);
+btnxo.forEach((element, index) => element.addEventListener('click', () => gameButton(index)));
 
-const btnOption = document.querySelectorAll('.resetBtn');
-console.log(btnOption);
+//game
 
-
-
-//buttons listeners
-btnxo.addEvenListener('click', gameButton);
-console.log(gameButton)
-btnOption.addEvenListener('click', gameReset);
-
-
-// functions
-function gameButton() {
-    if (btnxo === 'x' || 'o') {
-        console.log('Click on occupied field');
-    }
-
-
-
-
-
+function gameButton(value) {
+    console.log(`Click on game field ${value + 1}`)
 }
 
-function gameReset() {
-
-}
-
+fieldxo.addEventListener('click', play => {
+    console.log('click on free field')
+})
