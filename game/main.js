@@ -1,25 +1,19 @@
-console.log('Test JS')
+import {
+    cleaning
+} from './cleaning.js'
+
+//always cleaning at start
+cleaning();
 
 //reset button
 const btnOption = document.querySelector('.resetBtn');
 
 btnOption.addEventListener('click', () => {
-    console.log('reset Button click!');
-
-    function cleaning() {
-        document.getElementById("filed1").innerText = ""
-        document.getElementById("filed2").innerText = ""
-        document.getElementById("filed3").innerText = ""
-        document.getElementById("filed4").innerText = ""
-        document.getElementById("filed5").innerText = ""
-        document.getElementById("filed6").innerText = ""
-        document.getElementById("filed7").innerText = ""
-        document.getElementById("filed8").innerText = ""
-        document.getElementById("filed9").innerText = ""
-    };
-
-    cleaning()
+    console.log('Click on reset button');
+    cleaning();
 });
+
+
 
 //buttons xo
 const btnxo = document.querySelectorAll('.fieldxo');
@@ -33,7 +27,7 @@ function gameButton(value) {
         case 0:
             console.log(document.getElementById("filed1").innerHTML)
             if (document.getElementById("filed1").innerHTML !== '') {
-                console.log('Filed occupied')
+                console.log('Field occupied')
                 break
             } else {
                 console.log('Input Value')
@@ -43,7 +37,7 @@ function gameButton(value) {
         case 1:
             console.log(document.getElementById("filed2").innerHTML)
             if (document.getElementById("filed2").innerHTML !== '') {
-                console.log('Filed occupied')
+                console.log('Field occupied')
                 break
             } else {
                 console.log('Input Value')
@@ -53,7 +47,7 @@ function gameButton(value) {
         case 2:
             console.log(document.getElementById("filed3").innerHTML)
             if (document.getElementById("filed3").innerHTML !== '') {
-                console.log('Filed occupied')
+                console.log('Field occupied')
                 break
             } else {
                 console.log('Input Value')
@@ -63,7 +57,7 @@ function gameButton(value) {
         case 3:
             console.log(document.getElementById("filed4").innerHTML)
             if (document.getElementById("filed4").innerHTML !== '') {
-                console.log('Filed occupied')
+                console.log('Field occupied')
                 break
             } else {
                 console.log('Input Value')
@@ -73,7 +67,7 @@ function gameButton(value) {
         case 4:
             console.log(document.getElementById("filed5").innerHTML)
             if (document.getElementById("filed5").innerHTML !== '') {
-                console.log('Filed occupied')
+                console.log('Field occupied')
                 break
             } else {
                 console.log('Input Value')
@@ -83,7 +77,7 @@ function gameButton(value) {
         case 5:
             console.log(document.getElementById("filed6").innerHTML)
             if (document.getElementById("filed6").innerHTML !== '') {
-                console.log('Filed occupied')
+                console.log('Field occupied')
                 break
             } else {
                 console.log('Input Value')
@@ -93,7 +87,7 @@ function gameButton(value) {
         case 6:
             console.log(document.getElementById("filed7").innerHTML)
             if (document.getElementById("filed7").innerHTML !== '') {
-                console.log('Filed occupied')
+                console.log('Field occupied')
                 break
             } else {
                 console.log('Input Value')
@@ -103,7 +97,7 @@ function gameButton(value) {
         case 7:
             console.log(document.getElementById("filed8").innerHTML)
             if (document.getElementById("filed8").innerHTML !== '') {
-                console.log('Filed occupied')
+                console.log('Field occupied')
                 break
             } else {
                 console.log('Input Value')
@@ -113,7 +107,7 @@ function gameButton(value) {
         case 8:
             console.log(document.getElementById("filed9").innerHTML)
             if (document.getElementById("filed9").innerHTML !== '') {
-                console.log('Filed occupied')
+                console.log('Field occupied')
                 break
             } else {
                 console.log('Input Value')
