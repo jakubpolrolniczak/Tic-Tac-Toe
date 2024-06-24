@@ -6,19 +6,16 @@ import {
 cleaning();
 
 //reset button
-const btnOption = document.querySelector('.resetBtn');
+const buttonResetGame = document.querySelector('.resetBtn');
 
-btnOption.addEventListener('click', () => {
-    console.log('Click on reset button');
-    cleaning();
-});
+buttonResetGame.addEventListener('click', cleaning);
 
 
 
-//buttons xo
-const btnxo = document.querySelectorAll('.fieldxo');
+//buttons in game
+const buttonGameField = document.querySelectorAll('.fieldxo');
 
-btnxo.forEach((element, index) => element.addEventListener('click', () => gameButton(index)));
+buttonGameField.forEach((element, index) => element.addEventListener('click', () => gameButton(index)));
 
 function gameButton(value) {
     console.log(`Click on game field no ${value}`)
@@ -119,17 +116,13 @@ function gameButton(value) {
 
 
 
-//input values = if user clicked on field then input X or O alternately | always start X
+//TODO: input values = if user clicked on field then input X or O alternately | always start X
 
-//checking last move
-const checkValues = btnxo.forEach((element) => console.log(element.innerHTML));
+//TODO: checking last move
+const checkValues = buttonGameField.forEach((element) => console.log(element.innerHTML));
 console.log(checkValues)
 
 
 
-
-
-
-
-//check winner
+//TODO: check winner
 
